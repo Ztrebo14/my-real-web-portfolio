@@ -1,0 +1,48 @@
+.about-me-container {
+    color: white;
+    padding: 40px 30px 10px 30px;
+    font-size: 22px;
+}
+
+.myself-container {
+    /* animation: name, duration, timing-function, delayed, iteration, direction, fill-mode, play=state */
+    animation: abtmyselfanim 2s;
+}
+
+.myself-container p{
+    margin-top: 10px;
+    padding: 0 30px 0 20px;
+}
+
+.quotes-container {
+    margin-top: 20px;
+    opacity: 0;
+    animation: abtquoteanim 2s ease-in-out 1s forwards;
+}
+
+.quotes-container pre {
+    margin-top: 10px;
+    padding: 0 0 0 20px;
+}
+
+@keyframes abtmyselfanim {
+    0% {
+        opacity: 0;  
+        transform: translateX(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes abtquoteanim {
+    0% {
+        opacity: 0;  
+        transform: translateX(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

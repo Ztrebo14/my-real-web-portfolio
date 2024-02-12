@@ -1,0 +1,10 @@
+.home-container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr;
+    padding: 30px 30px;
+}
+
+.nav-outlet-output {
+    text-align: left;
+}

@@ -1,0 +1,53 @@
+.intro-container {
+    padding: 40px 30px 30px 30px ;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(23, 23, 23);
+    border-radius: 20px;
+    color: white;
+}
+
+/* #my-photo {
+    border-radius: 60%;
+    height: 340px;
+    width: 340px;
+    overflow: hidden;
+} */
+
+img {
+    object-fit: cover;
+    object-position: top;
+    border-radius: 60%;
+    height: 340px;
+    width: 340px;
+    transition: 2s;
+}
+
+
+
+#my-photo:hover {
+    transform: scale(1.15, 1.15);
+}
+
+.name-bio {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.name-bio a {
+    color: white;
+    padding: 0 15px;
+}
+
+.name-bio a:hover {
+    filter: drop-shadow(0 0 1em rgb(0, 123, 255));
+}
+
+.name-bio svg {
+    margin: 0 0 15px 0;
+}
+
+.name-bio p {
+    padding-top: 15px;
+}

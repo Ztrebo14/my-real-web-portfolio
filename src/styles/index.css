@@ -1,0 +1,10 @@
+* {
+    margin: 0 auto;
+}
+
+:root {
+    background-color: rgb(198, 198, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

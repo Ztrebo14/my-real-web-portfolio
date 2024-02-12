@@ -1,0 +1,8 @@
+.app-container {
+    background: linear-gradient(rgb(32, 32, 32), rgb(65, 65, 238), rgb(75, 75, 75));
+    margin: 30px;
+    height: 700px;
+    width: 1550px;
+    border: 1px solid red;
+    overflow-x: hidden; /* this property hide and prevents the about-me animation scrolling in horizontal*/
+}
