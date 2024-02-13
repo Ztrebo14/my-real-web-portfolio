@@ -8,22 +8,14 @@
 }
 
 /* #my-photo {
-    border-radius: 60%;
-    height: 340px;
-    width: 340px;
-    overflow: hidden;
+    background-image: url('../../src/assets/images/robert-me.JPG');
+    background-size: cover;
+    background-position: top;
 } */
 
-img {
-    object-fit: cover;
-    object-position: top;
-    border-radius: 60%;
-    height: 340px;
-    width: 340px;
+#my-photo {
     transition: 2s;
 }
-
-
 
 #my-photo:hover {
     transform: scale(1.15, 1.15);

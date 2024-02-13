@@ -5,7 +5,19 @@ const IntroMe = () => {
   return (
     <>
         <div className="intro-container">
-            <img src='../../src/assets/images/robert-me.JPG' alt='robert-abon-img' />
+            <div id="my-photo">
+              <img 
+                src='../../src/assets/images/robert-me.JPG' 
+                alt='robert-abon-img' 
+                height='330'
+                width='330'
+                style={{ 
+                  borderRadius: '60%', 
+                  objectFit: 'cover',
+                  objectPosition: 'top'
+                }}
+              />
+            </div>
             <div className="name-bio"> 
                 <a href="https://github.com/Ztrebo14">
                   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">

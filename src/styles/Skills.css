@@ -2,11 +2,62 @@
     margin: 0;
     padding: 40px 30px 30px 30px ;
     color: white;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#html-img img {
-    padding: 0;
-    margin: 0;
-    border: 0;
+.icon-list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
 }
+
+#html5-icon {
+    padding: 0 10px;
+    transition: 0.3s;
+}
+#html5-icon:hover {
+    transform: scale(1.50, 1.50);
+}
+
+#css3-icon {
+    padding: 0 10px;
+    transition: 0.3s;
+}
+#css3-icon:hover {
+    transform: scale(1.50, 1.50);
+}
+
+#js-icon {
+    padding: 0 10px;
+    transition: 0.3s;
+}
+#js-icon:hover {
+    transform: scale(1.50, 1.50);
+}
+
+#nodejs-icon {
+    padding: 0 10px;
+    transition: 0.3s;
+}
+#nodejs-icon:hover {
+    transform: scale(1.50, 1.50);
+}
+
+#reactjs-icon {
+    padding: 0 10px;
+    transition: 0.3s;
+}
+#reactjs-icon:hover {
+    transform: scale(1.50, 1.50);
+}
+
+#vuejs-icon {
+    padding: 0 10px;
+    transition: 0.3s;
+}
+#vuejs-icon:hover {
+    transform: scale(1.70, 1.70);
+}
+
