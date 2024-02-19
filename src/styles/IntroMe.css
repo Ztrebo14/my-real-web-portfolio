@@ -14,6 +14,15 @@
     transition: 2s;
 }
 
+#my-photo {
+    background-image: url('../../src/assets/images/robert-me.JPG');
+    background-size: cover;
+    background-position: top;
+    border-radius: 50%;
+    height: 330px;
+    width: 330px;
+}
+
 #my-photo:hover {
     transform: scale(1.15, 1.15);
 }
