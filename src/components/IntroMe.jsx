@@ -6,17 +6,6 @@ const IntroMe = () => {
     <>
         <div className="intro-container">
             <div id="my-photo">
-              {/* <img 
-                src='../../src/assets/images/robert-me.JPG' 
-                alt='robert-abon-img' 
-                height='330'
-                width='330'
-                style={{ 
-                  borderRadius: '60%', 
-                  objectFit: 'cover',
-                  objectPosition: 'top'
-                }}
-              /> */}
             </div>
             <div className="name-bio"> 
                 <a href="https://github.com/Ztrebo14">
