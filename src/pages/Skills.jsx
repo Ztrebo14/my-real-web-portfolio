@@ -8,13 +8,13 @@ const Skills = () => {
       <h1>My Technologies</h1>
       <div className="icon-list">
         <div id="html5-icon">
-          <img 
+          {/* <img 
             src='../../src/assets/icons/html-5-2.png' 
             title='HTML 5'
             alt='html-5'
             height='80'
             width='80'
-          />
+          /> */}
         </div>
         <div id="css3-icon">
           <img 
