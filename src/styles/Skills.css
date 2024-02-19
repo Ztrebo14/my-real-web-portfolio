@@ -26,45 +26,81 @@
 }
 #html5-icon:hover {
     transform: scale(1.50, 1.50);
+    filter: drop-shadow(0 0 0.50em orange);
 }
 
 #css3-icon {
+    background-image: url('../assets/icons/css-3-2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
     padding: 0 10px;
     transition: 0.3s;
 }
 #css3-icon:hover {
     transform: scale(1.50, 1.50);
+    filter: drop-shadow(0 0 0.50em rgb(98, 140, 255));
 }
 
 #js-icon {
+    background-image: url('../assets/icons/js-1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
     padding: 0 10px;
     transition: 0.3s;
 }
 #js-icon:hover {
     transform: scale(1.50, 1.50);
+    filter: drop-shadow(0 0 0.50em rgb(255, 255, 74));
 }
 
 #nodejs-icon {
+    background-image: url('../assets/icons/nodejs-500.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
     padding: 0 10px;
     transition: 0.3s;
 }
 #nodejs-icon:hover {
     transform: scale(1.50, 1.50);
+    filter: drop-shadow(0 0 0.50em rgb(53, 215, 31));
 }
 
 #reactjs-icon {
+    background-image: url('../assets/icons/react-1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
     padding: 0 10px;
     transition: 0.3s;
 }
 #reactjs-icon:hover {
     transform: scale(1.50, 1.50);
+    filter: drop-shadow(0 0 0.50em rgb(144, 107, 255));
 }
 
 #vuejs-icon {
+    background-image: url('../assets/icons/vuejs-2-500.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
     padding: 0 10px;
     transition: 0.3s;
 }
 #vuejs-icon:hover {
     transform: scale(1.70, 1.70);
+    filter: drop-shadow(0 0 0.50em rgb(75, 255, 66));
 }
 
