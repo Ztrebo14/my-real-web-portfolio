@@ -9,12 +9,10 @@ const Homepage = () => {
     <>
       <div className="home-container">
           <IntroMe />
-        <div className="right-side-container">
+          <div className="right-side-container">
             <NaviLinks Link={Link} />
-          <div className="nav-outlet-output">
             <Outlet/>
           </div>
-        </div>
       </div>
       
     </>
