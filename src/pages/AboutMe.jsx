@@ -17,10 +17,10 @@ const AboutMe = () => {
       </div>
       <div className="quotes-container">
         <h1>Quotes</h1>
-        <pre ><i>
+        <p>
           "Little Progresses can make soon a Bigger Progress" <br />
           "You can Rest, but never Stop"
-        </i></pre>
+        </p>
       </div>
     </div>
     </>

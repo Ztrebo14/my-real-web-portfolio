@@ -1,10 +1,22 @@
 * {
-    margin: 0 auto;
+    margin: 0;
 }
 
-:root {
-    background-color: rgb(198, 198, 198);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+html body :root {
+    background: linear-gradient(rgb(32, 32, 32), rgb(65, 65, 238), rgb(75, 75, 75));
+    
+}
+
+@media (max-width: 340px) {
+
+}
+
+/* Media query for screens between 341px and 770px wide */
+@media (min-width: 341px) and (max-width: 770px) {
+
+}
+
+/* Media query for screens between 771px and 1025px wide */
+@media (min-width: 771px) and (max-width: 1025px) {
+
 }

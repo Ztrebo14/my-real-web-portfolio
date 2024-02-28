@@ -1,29 +1,66 @@
-.right-side-container {
-    margin: 0 0 0 30px;
-    background-color: rgb(79, 79, 79);
-    border-radius: 20px;
-    text-align: right;
-}
-
-.links {
+.links-container {
+    text-align: center;
     background-color: rgb(23, 23, 23);
-    margin: 0 0 0 460px;
-    padding: 15px 50px;
-    border-radius: 0 20px 0 20px;
-    display: flex;
-    justify-content: center;
+    margin: 10px 10px 0 10px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
-.links a {
+.links-container a {
     text-decoration: none;
     font-size: 18px;
     color: white;
+    padding: 0 20px;
+    transition: 1s;
 }
 
-.links a:hover {
+a:hover {
     transform: scale(1.2, 1.2);
+    color: blue;
 }
 
-.links a:active {
+.links-container a:active {
     color: rgb(49, 189, 254);
+}
+
+@media (max-width: 1025px) {
+    /* for laptop small screen */
+}
+
+@media (max-width: 770px) {
+    /* for tablet screen */
+    .links-container {
+        text-align: center;
+        background-color: rgb(23, 23, 23);
+        margin: 10px 10px 0 10px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .links-container a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        padding: 0 10px;
+        transition: 1s;
+    }
+}
+
+@media (max-width: 340px) {
+    /* for android screen */
+    .links-container {
+        text-align: center;
+        background-color: rgb(23, 23, 23);
+        margin: 10px 10px 0 10px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .links-container a {
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+        padding: 0 10px;
+        transition: 1s;
+    }
 }
