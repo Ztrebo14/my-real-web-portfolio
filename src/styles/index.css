@@ -9,7 +9,7 @@ html body {
 }
 
 :root {
-    background: linear-gradient(rgb(32, 32, 32), rgb(65, 65, 238), rgb(75, 75, 75));
+    background: linear-gradient(rgb(32, 32, 32), rgb(65, 65, 238), rgb(75, 75, 75), rgb(147, 147, 0));
 }
 
 /* body {
