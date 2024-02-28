@@ -10,6 +10,14 @@ html body {
 
 :root {
     background: linear-gradient(rgb(32, 32, 32), rgb(65, 65, 238), rgb(75, 75, 75), rgb(147, 147, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 2020px) {
+    :root {
+        background-size: contain;
+    }
 }
 
 /* body {

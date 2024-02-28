@@ -262,6 +262,7 @@
         margin-top: 40px;
         display: flex;
         flex-flow: row wrap;
+        justify-content: center;
     }
     
     #html5-icon {
@@ -321,6 +322,7 @@
         background-repeat: no-repeat;
         height: 60px;
         width: 60px;
+        margin-top: 20px;
         padding: 0 20px;
         transition: 0.3s;
         opacity: 0;
@@ -338,6 +340,7 @@
         background-repeat: no-repeat;
         height: 60px;
         width: 60px;
+        margin-top: 20px;
         padding: 0 20px;
         transition: 0.3s;
         opacity: 0;
@@ -355,6 +358,7 @@
         background-repeat: no-repeat;
         height: 60px;
         width: 60px;
+        margin-top: 20px;
         padding: 0 20px;
         transition: 0.3s;
         opacity: 0;
