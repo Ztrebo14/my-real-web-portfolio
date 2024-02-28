@@ -1,16 +1,14 @@
 .home-container {
     display: flex;
     flex-direction: row;
-    margin: 0 30px auto;
+    margin: 0 40px auto;
     padding-top: 10px;
 }
 
 .right-side-container {
     background-color: rgb(79, 79, 79);
-    height: 590px;
-    width: 850px;
     border-radius: 20px;
-    margin-left: 30px;
+
 }
 
 @media (max-width: 1025px) {
@@ -22,7 +20,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        /* justify-content: center; */
+
     }
 }
 

@@ -23,22 +23,44 @@ a:hover {
     color: rgb(49, 189, 254);
 }
 
-@media (max-width: 480px) {
-    .right-side-container {
+@media (max-width: 1025px) {
+    /* for laptop small screen */
+}
 
-    }
-
+@media (max-width: 770px) {
+    /* for tablet screen */
     .links-container {
-        background-color: rgb(23, 23, 23);
-        
-        padding: 20px 10px 20px 10px;
         text-align: center;
+        background-color: rgb(23, 23, 23);
+        margin: 10px 10px 0 10px;
+        padding: 10px;
         border-radius: 20px;
-        /* margin: 0 0 0 460px;
-        padding: 15px 50px;
-        border-radius: 0 20px 0 20px;
-        position: relative;
-        display: flex;
-        justify-content: center; */
+    }
+    
+    .links-container a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        padding: 0 10px;
+        transition: 1s;
+    }
+}
+
+@media (max-width: 340px) {
+    /* for android screen */
+    .links-container {
+        text-align: center;
+        background-color: rgb(23, 23, 23);
+        margin: 10px 10px 0 10px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .links-container a {
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+        padding: 0 10px;
+        transition: 1s;
     }
 }

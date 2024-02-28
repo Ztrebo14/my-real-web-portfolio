@@ -21,9 +21,10 @@
     animation: abtquoteanim 2s ease-in-out 1s forwards;
 }
 
-.quotes-container pre {
+.quotes-container p {
     margin-top: 10px;
     padding: 0 0 0 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @keyframes abtmyselfanim {
