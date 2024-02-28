@@ -126,3 +126,370 @@
     }
 }
 
+@media (min-width: 771px) and (max-width: 1030px) {
+    /* for laptop small screen */
+    .skills-container {
+        margin: 0;
+        padding: 30px 30px 30px 30px ;
+        font-size: 22px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .icon-list {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #html5-icon {
+        background-image: url('../assets/icons/html-5-2.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90px;
+        width: 90px;
+        padding: 0 20px;
+        transition: 0.3s;
+        animation: anim 0.5s forwards;
+    }
+    #html5-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em orange);
+    }
+    
+    #css3-icon {
+        background-image: url('../assets/icons/css-3-2.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90px;
+        width: 90px;
+        padding: 0 20px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 0.3s forwards;
+    }
+    #css3-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em rgb(98, 140, 255));
+    }
+    
+    #js-icon {
+        background-image: url('../assets/icons/js-1.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90px;
+        width: 90px;
+        padding: 0 20px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 0.5s forwards;
+    }
+    #js-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em rgb(255, 255, 74));
+    }
+    
+    #nodejs-icon {
+        background-image: url('../assets/icons/nodejs-500.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90px;
+        width: 90px;
+        padding: 0 20px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 0.8s forwards;
+    }
+    #nodejs-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em rgb(53, 215, 31));
+    }
+    
+    #reactjs-icon {
+        background-image: url('../assets/icons/react-1.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90px;
+        width: 90px;
+        padding: 0 20px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 1.2s forwards;
+    }
+    #reactjs-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em rgb(144, 107, 255));
+    }
+    
+    #vuejs-icon {
+        background-image: url('../assets/icons/vuejs-2-500.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90px;
+        width: 90px;
+        padding: 0 20px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 1.4s forwards;
+    }
+    #vuejs-icon:hover {
+        transform: scale(1.70, 1.70);
+        filter: drop-shadow(0 0 0.50em rgb(75, 255, 66));
+    }
+}
+
+@media (min-width: 511px) and (max-width: 770px) {
+    /* for tablet screen */
+    .skills-container {
+        margin: 0;
+        padding: 30px 30px 30px 30px ;
+        font-size: 22px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .icon-list {
+        margin-top: 40px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    #html5-icon {
+        background-image: url('../assets/icons/html-5-2.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60px;
+        width: 60px;
+        padding: 0 20px;
+        transition: 0.3s;
+        animation: anim 0.5s forwards;
+    }
+    #html5-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em orange);
+    }
+    
+    #css3-icon {
+        background-image: url('../assets/icons/css-3-2.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60px;
+        width: 60px;
+        padding: 0 20px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 0.3s forwards;
+    }
+    #css3-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em rgb(98, 140, 255));
+    }
+    
+    #js-icon {
+        background-image: url('../assets/icons/js-1.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60px;
+        width: 60px;
+        padding: 0 20px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 0.5s forwards;
+    }
+    #js-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em rgb(255, 255, 74));
+    }
+    
+    #nodejs-icon {
+        background-image: url('../assets/icons/nodejs-500.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60px;
+        width: 60px;
+        padding: 0 20px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 0.8s forwards;
+    }
+    #nodejs-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em rgb(53, 215, 31));
+    }
+    
+    #reactjs-icon {
+        background-image: url('../assets/icons/react-1.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60px;
+        width: 60px;
+        padding: 0 20px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 1.2s forwards;
+    }
+    #reactjs-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em rgb(144, 107, 255));
+    }
+    
+    #vuejs-icon {
+        background-image: url('../assets/icons/vuejs-2-500.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60px;
+        width: 60px;
+        padding: 0 20px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 1.4s forwards;
+    }
+    #vuejs-icon:hover {
+        transform: scale(1.70, 1.70);
+        filter: drop-shadow(0 0 0.50em rgb(75, 255, 66));
+    }
+}
+
+@media (min-width: 300px) and (max-width: 510px)  {
+    /* for android screen */
+    .icon-list {
+        margin-top: 40px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        align-content: space-around;
+    }
+    
+    .skills-container {
+        margin: 0;
+        padding: 30px 30px 30px 30px ;
+        font-size: 18px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #html5-icon {
+        background-image: url('../assets/icons/html-5-2.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 10px;
+        padding: 10px 10px 10px 10px;
+        transition: 0.3s;
+        animation: anim 0.5s forwards;
+    }
+    #html5-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em orange);
+    }
+    
+    #css3-icon {
+        background-image: url('../assets/icons/css-3-2.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 10px;
+        padding: 10px 10px 10px 10px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 0.3s forwards;
+    }
+    #css3-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em rgb(98, 140, 255));
+    }
+    
+    #js-icon {
+        background-image: url('../assets/icons/js-1.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        padding: 10px 10px 10px 10px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 0.5s forwards;
+    }
+    #js-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em rgb(255, 255, 74));
+    }
+    
+    #nodejs-icon {
+        background-image: url('../assets/icons/nodejs-500.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        padding: 10px 10px 10px 10px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 0.8s forwards;
+    }
+    #nodejs-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em rgb(53, 215, 31));
+    }
+    
+    #reactjs-icon {
+        background-image: url('../assets/icons/react-1.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+        padding: 10px 10px 10px 10px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 1.2s forwards;
+    }
+    #reactjs-icon:hover {
+        transform: scale(1.50, 1.50);
+        filter: drop-shadow(0 0 0.50em rgb(144, 107, 255));
+    }
+    
+    #vuejs-icon {
+        background-image: url('../assets/icons/vuejs-2-500.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+        padding: 10px 10px 10px 10px;
+        transition: 0.3s;
+        opacity: 0;
+        animation: anim 0.5s ease-in-out 1.4s forwards;
+    }
+    #vuejs-icon:hover {
+        transform: scale(1.70, 1.70);
+        filter: drop-shadow(0 0 0.50em rgb(75, 255, 66));
+    }
+
+}
