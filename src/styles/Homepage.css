@@ -4,6 +4,8 @@
     margin: 0 40px auto;
     margin-top: 20px;
     margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
 }
 
 .right-side-container {
