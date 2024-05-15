@@ -12,6 +12,7 @@
     margin-top: 40px;
     display: flex;
     flex-direction: row;
+    overflow-x: hidden;
 }
 
 #html5-icon {

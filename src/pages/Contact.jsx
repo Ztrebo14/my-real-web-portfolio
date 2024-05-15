@@ -47,7 +47,7 @@ const Contact = () => {
               <label>
                 Reach me and lets have a Coffee
               </label>
-                <textarea type="text" {...register('message')} cols="50" rows="9" />
+                <textarea type="text" placeholder='This function is not working...' {...register('message')} cols="50" rows="9" />
               <label>
                 Check:
                 <input type="checkbox" onChange={handleCheck} {...register('isCheck')}/>

@@ -1,22 +1,52 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
-html body {
+html {
     height: 100%;
-    width: 100%;
-
 }
 
-:root {
+body {
+    /* height: 100vh;
+    width: 100vw; */
     background: linear-gradient(rgb(32, 32, 32), rgb(65, 65, 238), rgb(75, 75, 75), rgb(147, 147, 0));
+    min-height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+:root {
+    /* background: linear-gradient(rgb(32, 32, 32), rgb(65, 65, 238), rgb(75, 75, 75), rgb(147, 147, 0));
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-size: contain; */
+    
+}
+
 @media (max-width: 2020px) {
-    :root {
-        background-size: contain;
+    body {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1025px) {
+     body {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 770px) {
+    body {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 340px) {
+    body {
+        /* height: 100vh;
+        width: 100vw; */
+        background-size: cover;
     }
 }
 
