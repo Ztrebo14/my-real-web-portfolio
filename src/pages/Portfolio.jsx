@@ -11,18 +11,6 @@ const Portfolio = () => {
         <ul>
           <li><a href="https://todo-list-app-robertabon.netlify.app">Todo-List App v1</a></li>
           <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
-          <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
-          <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
-          <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
-          <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
-          <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
-          <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
-          <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
-          <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
-          <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
-          <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
-          <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
-          <li><a href="https://robo-user-app-robertabon.netlify.app">Robo User App</a></li>
         </ul> 
       </div>
       <h1>Description</h1>
